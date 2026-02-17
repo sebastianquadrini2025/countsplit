@@ -12,7 +12,7 @@ This material is based upon research supported in part by the Office of Naval Re
 Recent package updates
 -----
 
-A new function, est_overdispersions, has been added to the countsplit package. This function uses vst() function from the sctransform package to estimate overdispersion parameters for each row of the expression matrix while also accounting for zero-rows and other discrepancies. 
+A new function, est_overdispersions(), has been added to the countsplit package. This function uses vst() function from the sctransform package to estimate overdispersion parameters for each row of the expression matrix while also accounting for zero-rows and other discrepancies. 
 
 We recently sped up the performance of the package by re-implementing the main functions in C++. This is especially useful for real scRNA-seq datasets, which are quite large. We would like to acknowledge Mischko Heming (mheming.de) for implementing most of this speedup through a github contribution. 
 
