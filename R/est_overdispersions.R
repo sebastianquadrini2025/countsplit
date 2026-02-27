@@ -46,8 +46,6 @@
 #' cor(estover, trueover)
 #' countsplit(X, estover)
 #' }
-
-
 est_overdispersions <- function(matrix,
                                 min_cells = 5,
                                 n_genes = NULL, ...) {
