@@ -17,6 +17,7 @@
 #' @examples
 #' if (requireNamespace("sctransform", quietly = TRUE)) {
 #'   library(Matrix)
+#'   }
 #' n1 <- 500
 #' n2 <- 500
 #' p  <- 200
