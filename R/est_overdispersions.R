@@ -7,13 +7,10 @@
 #' @param min_cells Minimum number of cells expressing a gene for it to be modeled by `sctransform::vst()`.
 #' @param n_genes Number of genes to use in `vst()`. The default, `NULL`, uses all eligible genes.
 #' @param ... Additional arguments passed to `sctransform::vst()`.
-#'
 #' @return A numeric vector of overdispersion values per row of matrix; genes not modeled return `Inf`.
-#' 
 #' @importFrom Matrix colSums rowSums
 #' @importFrom stats setNames
 #' @export
-#' 
 #' @examples
 #' if (requireNamespace("sctransform", quietly = TRUE)) {
 #'   library(Matrix)
